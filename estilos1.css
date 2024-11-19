@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
     color: #333;
 }
 
-forms {
+form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -42,7 +42,7 @@ button {
     font-size: 16px;
 }
 
-buton {
+button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -58,5 +58,9 @@ button:hover {
     margin-top: 20px;
     color: #28a745;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    background: #e9f7ef;
+    padding: 10px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
 }
